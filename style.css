@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 30px 40px;
+  color: #255f5f;
+}
+.container{
+    margin:10px 300px;
+    display: flex;
+    gap:180px;
+    border: 2px solid #255f5f;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+#but{
+    font-size: 14px;
+    width: 52px;
+    height: 30px;
+    border: 2px solid wheat;
+    border-radius: 6px;
+    background: wheat;
+    color:black;
+    
+}
+#but:hover{
+    cursor: pointer;
+}
+.post div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.post{
+    width:200px;
+}
+.option:hover{
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
+#text{
+    padding: 5px;
+}
